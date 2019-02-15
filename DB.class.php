@@ -1,10 +1,10 @@
 <?php
 
 class DB{
-    private $dbHost     = "webappgroupswitzerland-mysqldbserver.mysql.database.azure.com";
-    private $dbUsername = "mysqldbuser@webappgroupswitzerland-mysqldbserver";
+    private $dbHost     = "groupswitzerland-mysqldb.mysql.database.azure.com";
+    private $dbUsername = "mydbuser@groupswitzerland-mysqldb";
     private $dbPassword = "@Italy2018";
-    private $dbName     = "gsdb4";
+    private $dbName     = "groupswitzerland-mysqldb";
     
     public function __construct(){
         if(!isset($this->db)){
